@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etName" android:hint="Pill name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDose" android:hint="Dose (e.g. 1 tablet)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etTime" android:hint="Time (HH:MM 24h)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etStock" android:hint="Stock count" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etExpiry" android:hint="Expiry (YYYY-MM-DD)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnSave" android:text="Save" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
